@@ -1,0 +1,21 @@
+{
+  "name": "ts-speed-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "awesome-loader": "webpack --config ./webpack.awesome-loader.config.js",
+    "ts-loader": "webpack --config ./webpack.ts-loader.config.js",
+    "postinstall":"node ./mock-file-generator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
